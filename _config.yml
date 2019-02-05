@@ -80,4 +80,4 @@ theme: landscape
   type: git
   repo: https://github.com/o0nsy0o/Andyblog.git
   branch: master
-  message: [message]
+  message: {{ now('YYYY-MM-DD HH:mm:ss') }}
